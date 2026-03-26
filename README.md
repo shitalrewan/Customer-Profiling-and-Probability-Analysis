@@ -1,4 +1,4 @@
-# AeroFit Treadmill — Customer Profiling & Probability Analysis
+# AeroFit Treadmill : Customer Profiling & Probability Analysis
 
 > **Descriptive analytics project** | Python · pandas · seaborn · Jupyter  
 > Identifying the right treadmill for the right customer using data from 180 purchase records.
@@ -50,7 +50,7 @@ This project uses descriptive statistics, visualisation, and probability analysi
 
 ## Dataset
 
-**Source:** AeroFit store purchase records — 3 months  
+**Source:** AeroFit store purchase records : 3 months  
 **Records:** 180 customer purchases  
 **Missing values:** None  
 **Duplicate rows:** None
@@ -74,7 +74,7 @@ This project uses descriptive statistics, visualisation, and probability analysi
 ```
 aerofit-analysis/
 │
-├── Aerofit_Revised.ipynb        # Main analysis notebook (revised & improved)
+├── Aerofit.ipynb                # Main analysis notebook (revised & improved)
 ├── aerofit_treadmill.csv        # Raw dataset
 ├── Aerofit_Analysis_Report.docx # Full written report with tables and findings
 └── README.md                    # This file
@@ -86,22 +86,22 @@ aerofit-analysis/
 
 The notebook follows this structure:
 
-1. **Setup** — library imports, consistent plot theming
-2. **Data Loading** — CSV load, shape and head inspection
-3. **Dataset Overview** — dtypes, categorical conversion, `describe()`
-4. **Data Quality Check** — null values, duplicates, outlier flags
+1. **Setup** : library imports, consistent plot theming
+2. **Data Loading** : CSV load, shape and head inspection
+3. **Dataset Overview** : dtypes, categorical conversion, `describe()`
+4. **Data Quality Check** : null values, duplicates, outlier flags
 5. **Univariate Analysis**
    - Numerical: three-panel plots (histogram + KDE, boxplot, violin) for Age, Usage, Fitness, Income, Miles, Education
    - Categorical: count distributions for Product, Gender, MaritalStatus
-6. **Bivariate Analysis** — Product vs. all features (boxplots, countplots, stacked histograms)
-7. **Correlation Analysis** — masked heatmap, Miles-correlation bar chart, pairplot coloured by Product
+6. **Bivariate Analysis** : Product vs. all features (boxplots, countplots, stacked histograms)
+7. **Correlation Analysis** : masked heatmap, Miles-correlation bar chart, pairplot coloured by Product
 8. **Probability Analysis**
    - Marginal probabilities (product market share)
    - Conditional probabilities for Gender, MaritalStatus, Income, Fitness, Usage, Age
    - Specific business questions (e.g., P(KP781 | Male))
-9. **Customer Profiles** — synthetic summary table per product
-10. **Business Insights** — plain-language observations after each analysis section
-11. **Recommendations** — six actionable items for sales and marketing teams
+9. **Customer Profiles** : synthetic summary table per product
+10. **Business Insights** : plain-language observations after each analysis section
+11. **Recommendations** : six actionable items for sales and marketing teams
 12. **Conclusion**
 
 ---
