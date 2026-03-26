@@ -75,7 +75,7 @@ This project uses descriptive statistics, visualisation, and probability analysi
 aerofit-analysis/
 │
 ├── Aerofit.ipynb                # Main analysis notebook (revised & improved)
-├── aerofit_treadmill.csv        # Raw dataset
+├── Aerofit_Treadmill.csv        # Raw dataset
 ├── Aerofit_Analysis_Report.docx # Full written report with tables and findings
 └── README.md                    # This file
 ```
