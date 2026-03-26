@@ -114,12 +114,12 @@ The notebook follows this structure:
 - **KP781** accounts for **22.2%** of purchases
 
 ### Top Differentiators
-- **Income** and **self-rated fitness** are the two strongest predictors of product choice — more useful than age or marital status
-- Miles, Usage, and Fitness are strongly correlated (r > 0.67) — committed, fit customers cluster around the KP781
-- Income and Education are moderately correlated (r = 0.62) — higher education drives purchasing power for premium models
+- **Income** and **self-rated fitness** are the two strongest predictors of product choice more useful than age or marital status
+- Miles, Usage, and Fitness are strongly correlated (r > 0.67) committed, fit customers cluster around the KP781
+- Income and Education are moderately correlated (r = 0.62) higher education drives purchasing power for premium models
 
 ### Outliers
-- High-income buyers (>$80K) and high-mileage customers (>200 miles/week) are genuine KP781 buyer signals — **retained** in all analyses
+- High-income buyers (>$80K) and high-mileage customers (>200 miles/week) are genuine KP781 buyer signals **retained** in all analyses
 - Usage of 6–7 days/week is rare but real; these customers consistently chose the KP781
 
 ---
@@ -212,7 +212,7 @@ The notebook is structured sequentially. Run cells from top to bottom. All plots
 | Library    | Version (tested) | Purpose                         |
 |------------|------------------|---------------------------------|
 | Python     | 3.8+             | Core language                   |
-| pandas     | 1.5+             | Data manipulation, crosstabs     |
+| pandas     | 1.5+             | Data manipulation, crosstabs    |
 | numpy      | 1.23+            | Numerical operations            |
 | matplotlib | 3.6+             | Base plotting                   |
 | seaborn    | 0.12+            | Statistical visualisation       |
