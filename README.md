@@ -84,6 +84,13 @@ Customer-Profiling-and-Probability-Analysis/
 ```
 
 ---
+### 🚀 Key Deliverables
+
+* 📓 **[Exploratory Data Analysis (Jupyter Notebook)](notebooks/customer_profiling_eda.ipynb)** — *Python implementation using Pandas, Seaborn, and Matplotlib to identify customer segments.*
+* 📑 **[Customer Profiling Report (PDF)](reports/analysis_report.pdf)** — *A comprehensive business report translating probability analysis into actionable marketing strategies.*
+* 📊 **[Visualization Gallery](visuals/aerofit_customer_profile_distribution.png)** — *Statistical distributions and heatmaps showing the correlation between income, age, and product choice.*
+* 📈 **[Probability Analysis Summary](#probability-results)** — *Calculated conditional probabilities to predict which treadmill a customer is most likely to buy.*
+---
 
 ## Analysis Summary
 
