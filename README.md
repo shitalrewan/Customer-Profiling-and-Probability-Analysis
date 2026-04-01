@@ -72,12 +72,15 @@ This project uses descriptive statistics, visualisation, and probability analysi
 ## Project Structure
 
 ```
-aerofit-analysis/
-│
-├── Aerofit.ipynb                # Main analysis notebook (revised & improved)
-├── Aerofit_Treadmill.csv        # Raw dataset
-├── Aerofit_Analysis_Report.docx # Full written report with tables and findings
-└── README.md                    # This file
+Customer-Profiling-and-Probability-Analysis/
+├── data/                    # Raw dataset (aerofit_treadmill.csv)
+├── notebooks/               # Technical implementation
+│   └── customer_profiling_eda.ipynb
+├── reports/                 # Documented insights
+│   └── analysis_report.docx
+├── visuals/                 # Key charts & distribution plots
+│   └── aerofit_customer_profile_distribution.png
+└── README.md                # Project documentation & summary
 ```
 
 ---
