@@ -206,7 +206,7 @@ pip install pandas numpy matplotlib seaborn jupyter
 ### 3. Launch the notebook
 
 ```bash
-jupyter notebook Aerofit_Revised.ipynb
+jupyter notebook customer_profiling_eda.ipynb
 ```
 
 ### 4. Run all cells in order
